@@ -2,12 +2,12 @@
 
 def countdown(number)
 counter = 10
-loop do 
+while counter < 10
   counter -= 1
   puts "#{number} SECOND(S)!"
-  if counter > 10 
+  while counter > 10 
     break
-  else counter = 12
+   counter = 12
   puts "HAPPY NEW YEAR!"
 # => nil (return value)
     
