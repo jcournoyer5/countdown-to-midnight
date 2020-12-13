@@ -1,12 +1,11 @@
 #write your code here
 
 def countdown
-    countdown = 10
-# => 0 (return value)
-
-while countdown < 10
-  countdown += 1
-  puts "#{number} SECOND(S)!"
+    number = 10
+puts "#{number} SECOND(S)!"
+while number < 10
+  number -= 1
+  
 end
 # => nil (return value)
 
