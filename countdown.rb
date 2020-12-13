@@ -15,4 +15,3 @@ end
 def countdown_with_sleep
   puts sleep(5.seconds)
 end
-end
