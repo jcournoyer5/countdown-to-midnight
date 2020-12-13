@@ -1,17 +1,20 @@
 #write your code here
 
 def countdown(number)
-puts "#{number} SECOND(S)!"
-
-countdown = 10
-while number < 10
-  number -= 1
+counter = 10
+loop do 
+  counter -= 1
+  puts "#{number} SECOND(S)!"
+  if counter >= 10 
+    break
+  else counter = 10
 puts "HAPPY NEW YEAR!"
 # => nil (return value)
     
-end
+  end
 
 def countdown_with_sleep
   puts sleep(5.seconds)
+end
 end
 end
