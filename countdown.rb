@@ -1,11 +1,10 @@
 #write your code here
 
 def countdown(counter)
-  puts "#{counter} SECOND(S)!"
 counter = 10
 while counter > 0
   counter -= 1
-  
+  puts "#{counter} SECOND(S)!"
  
   puts "HAPPY NEW YEAR!"
 # => nil (return value)
