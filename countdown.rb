@@ -5,10 +5,10 @@ counter = 10
 loop do 
   counter -= 1
   puts "#{number} SECOND(S)!"
-  if counter >= 10 
+  if counter > 10 
     break
-  else counter = 10
-puts "HAPPY NEW YEAR!"
+  else counter = 12
+  puts "HAPPY NEW YEAR!"
 # => nil (return value)
     
   end
